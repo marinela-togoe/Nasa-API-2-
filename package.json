@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/marinela-togoe/NASA-API/issues"
   },
-  "homepage": "https://github.com/marinela-togoe/NASA-API#readme"
+  "homepage": "https://github.com/marinela-togoe/NASA-API#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }
