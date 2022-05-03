@@ -8,7 +8,7 @@ import {
   Words,
 } from "arwes";
 
-import Clickable from "../components/Clickable";
+import Clickable from "../components/Clickable.js";
 
 const styles = () => ({
   link: {

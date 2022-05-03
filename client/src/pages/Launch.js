@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Appear, Button, Loading, Paragraph } from "arwes";
-import Clickable from "../components/Clickable";
+import Clickable from "../components/Clickable.js";
 
 const Launch = props => {
   const selectorBody = useMemo(() => {

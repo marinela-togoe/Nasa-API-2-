@@ -11,16 +11,16 @@ import {
   withStyles,
 } from "arwes";
 
-import usePlanets from "../hooks/usePlanets";
-import useLaunches from "../hooks/useLaunches";
+import usePlanets from "../hooks/usePlanets.js";
+import useLaunches from "../hooks/useLaunches.js";
 
-import Centered from "../components/Centered";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Centered from "../components/Centered.js";
+import Header from "../components/Header.js";
+import Footer from "../components/Footer.js";
 
-import Launch from "./Launch";
-import History from "./History";
-import Upcoming from "./Upcoming";
+import Launch from "./Launch.js";
+import History from "./History.js";
+import Upcoming from "./Upcoming.js";
 
 const styles = () => ({
   content: {
