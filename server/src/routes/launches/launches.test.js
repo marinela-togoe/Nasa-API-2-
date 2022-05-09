@@ -69,7 +69,7 @@ describe("Test POST /launch", () => {
 
      expect(response.body).toStrictEqual({
        error: "Invalid launch date",
-     }) ;
+     });
   
   });
 });
