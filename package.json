@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/marinela-togoe/NASA-API#readme",
   "dependencies": {
+    "mongoose": "^6.3.3",
     "morgan": "^1.10.0"
   }
 }
