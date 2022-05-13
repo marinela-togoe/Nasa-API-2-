@@ -19,9 +19,9 @@ function loadPlanetsData() {
           comment: "#",
           columns: true,
         }))
-      .on("data", (data) => {
+      .on("data", async (data) => {
         if (isHabitablePlanet(data)) {
-          habitablePlanets.push(data);
+          await planets.create(data);
         }
       })
       .on("error", (err) => {
@@ -32,7 +32,7 @@ function loadPlanetsData() {
         console.log(`${habitablePlanets.length} habitable planets found!`);
         resolve();
       });
-  }); 
+  });
 }
 
 // async function getAllPlanets() {
