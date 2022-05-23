@@ -1,4 +1,4 @@
-const axios = require("axios");
+ const axios = require("axios");
 
 const launchesDatabase = require("./launches.mongo");
 const planets = require("./planets.mongo");
@@ -115,6 +115,8 @@ if (!latestLaunch) {
  async function getAllLaunches() {
     return await launchesDatabase
     .find({}, { "_id": 0, "__v": 0 })
+    .skip(20)
+    .limit(50);
 }
 
  async function saveLaunch(launch) {
